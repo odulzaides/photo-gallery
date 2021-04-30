@@ -6,6 +6,9 @@
     --cardText: rgba(120, 120, 120, 1);
 }
 
+
+/* Body HTML  */
+
 *,
 *>* {
     box-sizing: border-box;
@@ -14,7 +17,8 @@
 body,
 html {
     /* background-color: rgba(253, 253, 253, .8); */
-    background-color: padding: 0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -58,7 +62,8 @@ html {
 .main {
     margin-top: 8rem;
     box-shadow: 5px 10px 10px 5px rgb(140, 140, 140);
-    width: 80%;
+    width: 85%;
+    height: 100%;
 }
 
 .collection-heading {
