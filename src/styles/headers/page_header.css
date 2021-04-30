@@ -1,0 +1,24 @@
+/* header */
+
+.nav {
+    background: var(--mainBlue);
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    padding-top: 1.7rem;
+}
+
+.menu>li>a {
+    color: white;
+    padding: 6rem;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    text-decoration: none;
+    letter-spacing: .3rem;
+}

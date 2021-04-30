@@ -1,0 +1,6 @@
+/* Utility classes  */
+
+.f-display-center {
+    display: flex;
+    justify-content: space-evenly;
+}

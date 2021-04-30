@@ -1,3 +1,7 @@
+@import './styles/utilities/utilities.css';
+@import './styles/headers/page_header.css';
+@import './styles/components/cards.css';
+@import './styles/components/card-container.css';
 :root {
     /* colors */
     --mainBlue: rgba(6, 6, 62, 1);
@@ -20,99 +24,4 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-
-/* Utility classes */
-
-.f-display-center {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-
-/* header */
-
-.nav {
-    background: var(--mainBlue);
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0;
-}
-
-.menu {
-    list-style: none;
-    display: flex;
-    padding-top: 1.7rem;
-}
-
-.menu>li>a {
-    color: white;
-    padding: 6rem;
-    line-height: 1.5;
-    font-size: 1.2rem;
-    text-decoration: none;
-    letter-spacing: .3rem;
-}
-
-
-/* main section */
-
-.main {
-    margin-top: 8rem;
-    box-shadow: 5px 10px 10px 5px rgb(140, 140, 140);
-    width: 85%;
-    height: 100%;
-}
-
-.collection-heading {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 3rem 1rem 1rem 1rem;
-    font-size: 3rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: var(--mainBlue);
-    letter-spacing: 1rem;
-}
-
-.cards {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1rem 4rem 1rem 4rem;
-    margin: 0 auto;
-    /* box-shadow: 5px 10px 10px 5px rgba(200, 200, 200, 1); */
-}
-
-.card {
-    margin: 4rem;
-    margin-bottom: 2rem;
-    height: 100%;
-    width: 100%;
-}
-
-.card>a {
-    text-decoration: none;
-}
-
-.card-content {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-.card-image {
-    /* height: 75%; */
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.card-title {
-    color: var(--cardText);
-    letter-spacing: .3rem;
-    /* margin: 0 auto; */
-    display: flex;
-    justify-content: space-evenly;
-    padding: none;
 }

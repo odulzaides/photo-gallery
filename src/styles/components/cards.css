@@ -1,0 +1,40 @@
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 4rem 1rem 4rem;
+    margin: 0 auto;
+    /* box-shadow: 5px 10px 10px 5px rgba(200, 200, 200, 1); */
+}
+
+.card {
+    margin: 4rem;
+    margin-bottom: 2rem;
+    height: 100%;
+    width: 100%;
+}
+
+.card>a {
+    text-decoration: none;
+}
+
+.card-content {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card-image {
+    /* height: 75%; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.card-title {
+    color: var(--cardText);
+    letter-spacing: .3rem;
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: none;
+}

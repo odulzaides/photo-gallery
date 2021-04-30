@@ -1,0 +1,18 @@
+/* featured collections main section */
+
+.main {
+    margin-top: 8rem;
+    box-shadow: 5px 10px 10px 5px rgb(140, 140, 140);
+    width: 85%;
+    height: 100%;
+}
+
+.collection-heading {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem 1rem 1rem 1rem;
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--mainBlue);
+    letter-spacing: 1rem;
+}
