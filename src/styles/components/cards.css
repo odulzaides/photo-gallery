@@ -1,8 +1,8 @@
 .card {
-    margin: 1rem;
+    margin: 2rem;
     margin-bottom: 2rem;
     height: 100%;
-    width: 100%;
+    width: 33%;
     box-shadow: 5px 10px 10px 5px rgb(170, 170, 170);
 }
 

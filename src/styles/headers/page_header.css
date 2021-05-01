@@ -1,5 +1,8 @@
 /* header */
 
+
+/* Navbar */
+
 .nav {
     background: var(--mainBlue);
     height: 100%;
@@ -16,6 +19,7 @@
 
 .menu>li>a {
     color: white;
+    /* color: var(--mainBlue); */
     padding: 6rem;
     line-height: 1.5;
     font-size: 1.2rem;
