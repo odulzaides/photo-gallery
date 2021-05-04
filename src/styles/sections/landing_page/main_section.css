@@ -1,0 +1,16 @@
+.landing-main {
+    justify-content: space-evenly;
+    padding: 1rem 4rem 1rem 4rem;
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+    /* box-shadow: 5px 10px 10px 5px rgba(200, 200, 200, 1); */
+}
+
+#landing-bg {
+    /* background-image: url('../../../../assets/AshokanReservoir_.jpg'); */
+    height: 100%;
+}
+
+.primary-color {
+    color: var(--mainblue);
+}

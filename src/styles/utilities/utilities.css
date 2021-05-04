@@ -4,3 +4,14 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+
+/* Text utilities */
+
+text-center {
+    text-align: center;
+}
+
+.primary-color {
+    color: var();
+}

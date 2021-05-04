@@ -1,20 +1,25 @@
 @import './styles/utilities/utilities.css';
 @import './styles/headers/page_header.css';
-@import './styles/components/cards.css';
+@import './styles/sections/landing_page/main_section.css';
 @import './styles/components/card-container.css';
+@import './styles/components/cards.css';
 :root {
     /* colors */
     --mainBlue: rgba(6, 6, 62, 1);
     --secondBlue: rgba(60, 60, 122);
     --cardBackground: rgba(200, 200, 200, 0.2);
     --cardText: rgba(120, 120, 120, 1);
+    /* fonts */
+    --mainFont: 'Poppins', sans-serif;
 }
 
 
 /* Body HTML  */
 
 *,
-*>* {
+*>*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -23,5 +28,32 @@ html {
     /* background-color: rgba(253, 253, 253, .8); */
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: var(--mainFont);
+    /* box-sizing: border-box; */
+}
+
+.container {
+    max-width: 375px;
+    overflow-x: hidden;
+}
+
+
+/* iPad Query */
+
+@media screen and (min-width:768px) {
+    body {
+        /* background-color: red; */
+    }
+    .container {
+        max-width: none;
+    }
+}
+
+
+/* Desktop Query */
+
+@media screen and (min-width:1024px) {
+    .container {
+        max-width: none;
+    }
 }
